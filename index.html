@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebDev Full Stack</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <div style="text-align: center; margin-top: 2%;">
+        <img src="assets/ZtechX-black.png" width="150">
+    </div>
+    <div class="roadmap">
+        <h1>Full Stack Web Development Roadmap</h1>
+    
+        <!-- Section 1: HTML Basics -->
+        <div class="node">
+            <h2 onclick="toggleNode('html')">HTML Basics</h2>
+            <ul id="html" class="hidden">
+                <li>Introduction to HTML and Web Structure</li>
+                <li>HTML Tags, Elements, Attributes</li>
+                <li>Project: Personal Profile Page</li>
+            </ul>
+        </div>
+    
+        <!-- Section 2: CSS Fundamentals -->
+        <div class="node">
+            <h2 onclick="toggleNode('css')">CSS Fundamentals</h2>
+            <ul id="css" class="hidden">
+                <li>Introduction to CSS: Selectors, Properties</li>
+                <li>Box Model, Flexbox, CSS Grid</li>
+                <li>Project: Responsive Landing Page</li>
+            </ul>
+        </div>
+    
+        <!-- Section 3: Advanced HTML & CSS -->
+        <div class="node">
+            <h2 onclick="toggleNode('advHtmlCss')">Advanced HTML & CSS</h2>
+            <ul id="advHtmlCss" class="hidden">
+                <li>Forms, Tables, Multimedia</li>
+                <li>Transitions, Animations, Pseudo-classes</li>
+                <li>Project: Interactive Website with Animations</li>
+            </ul>
+        </div>
+    
+        <!-- Section 4: Git & GitHub -->
+        <div class="node">
+            <h2 onclick="toggleNode('git')">Git & GitHub</h2>
+            <ul id="git" class="hidden">
+                <li>Version Control Basics</li>
+                <li>Using GitHub for Collaboration</li>
+                <li>Project: Personal Portfolio Repository</li>
+            </ul>
+        </div>
+    
+        <!-- Section 5: JavaScript Fundamentals -->
+        <div class="node">
+            <h2 onclick="toggleNode('js')">JavaScript Fundamentals</h2>
+            <ul id="js" class="hidden">
+                <li>Introduction to JavaScript: Variables, Data Types</li>
+                <li>Functions, Loops, Events</li>
+                <li>Project: To-do List Application</li>
+            </ul>
+        </div>
+    
+        <!-- Section 6: DOM Manipulation -->
+        <div class="node">
+            <h2 onclick="toggleNode('dom')">DOM Manipulation</h2>
+            <ul id="dom" class="hidden">
+                <li>Understanding the Document Object Model (DOM)</li>
+                <li>Event Handling, Modifying Elements</li>
+                <li>Project: Interactive Quiz</li>
+            </ul>
+        </div>
+    
+        <!-- Section 7: JavaScript ES6+ -->
+        <div class="node">
+            <h2 onclick="toggleNode('es6')">JavaScript ES6+</h2>
+            <ul id="es6" class="hidden">
+                <li>Arrow Functions, Let/Const, Template Literals</li>
+                <li>Promises, Async/Await, Modules</li>
+                <li>Project: Weather App with API Integration</li>
+            </ul>
+        </div>
+    
+        <!-- Section 8: Responsive Design -->
+        <div class="node">
+            <h2 onclick="toggleNode('responsive')">Responsive Design</h2>
+            <ul id="responsive" class="hidden">
+                <li>Mobile-First Design, Media Queries</li>
+                <li>CSS Grid, Flexbox</li>
+                <li>Project: Responsive E-commerce Homepage</li>
+            </ul>
+        </div>
+    
+        <!-- Section 9: Frontend Frameworks - React.js -->
+        <div class="node">
+            <h2 onclick="toggleNode('react')">Frontend Frameworks - React.js</h2>
+            <ul id="react" class="hidden">
+                <li>Introduction to React Components</li>
+                <li>State, Props, Lifecycle Methods</li>
+                <li>Project: Task Management App</li>
+            </ul>
+        </div>
+    
+        <!-- Section 10: Node.js and Express.js -->
+        <div class="node">
+            <h2 onclick="toggleNode('node')">Node.js and Express.js</h2>
+            <ul id="node" class="hidden">
+                <li>Introduction to Node.js, Setting up Server</li>
+                <li>Express.js Routing, Middleware</li>
+                <li>Project: Simple Blog Platform</li>
+            </ul>
+        </div>
+    
+        <!-- Section 11: Databases - MongoDB -->
+        <div class="node">
+            <h2 onclick="toggleNode('db')">Databases - MongoDB</h2>
+            <ul id="db" class="hidden">
+                <li>Introduction to NoSQL Databases</li>
+                <li>CRUD Operations with MongoDB</li>
+                <li>Project: User Authentication System</li>
+            </ul>
+        </div>
+    
+        <!-- Section 12: RESTful APIs -->
+        <div class="node">
+            <h2 onclick="toggleNode('api')">RESTful APIs</h2>
+            <ul id="api" class="hidden">
+                <li>Building APIs with Express.js</li>
+                <li>HTTP Methods: GET, POST, PUT, DELETE</li>
+                <li>Project: Blog API with CRUD</li>
+            </ul>
+        </div>
+    
+        <!-- Section 13: Authentication & Authorization -->
+        <div class="node">
+            <h2 onclick="toggleNode('auth')">Authentication & Authorization</h2>
+            <ul id="auth" class="hidden">
+                <li>JWT, OAuth, Session-based Authentication</li>
+                <li>Project: Secure User Login System</li>
+            </ul>
+        </div>
+    
+        <!-- Section 14: Deployment and DevOps -->
+        <div class="node">
+            <h2 onclick="toggleNode('deploy')">Deployment and DevOps</h2>
+            <ul id="deploy" class="hidden">
+                <li>Deploying on Heroku, Netlify</li>
+                <li>CI/CD Pipeline Basics</li>
+                <li>Project: Deploying Full Stack Application</li>
+            </ul>
+        </div>
+    
+        <!-- Section 15: Final Full Stack Project -->
+        <div class="node">
+            <h2 onclick="toggleNode('final')">Final Full Stack Project</h2>
+            <ul id="final" class="hidden">
+                <li>Building a Full Stack Application (Frontend, Backend, Database)</li>
+                <li>Final Code Review and Presentation</li>
+            </ul>
+        </div>
+    </div>
+    
+
+    <script src="js.js"></script>
+</body>
+</html>
